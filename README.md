@@ -16,7 +16,7 @@ Requirements:
 - Must have LSPosed/Xposed
 
 Steps:
-- Install [this apk]()
+- Install [this apk](https://github.com/redzuone/Game-Unlocker/blob/a1bc78d66aa4145d8d500e0f560e502df1b2bf94/app/build/outputs/apk/debug/app-debug.apk)
 - Open LSPosed, activate the module, Genshin should be selected automatically
 - Restart phone
 - Clear app data or reinstall game. If you don't want to redownload the game (about 20 GB), see below to see instructions on keeping the game data
