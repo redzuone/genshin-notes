@@ -1,17 +1,17 @@
 # Genshin Notes
 
 ## Table of Contents
-- [What is this?](#what)
-- [Fix for "blurriness"/resolution in game](#blurry)
-- [Backup/transfer game data / reinstall game without redownloading](#reinstall)
+- [What is this?](#fix-for-blurrinessresolution-in-game)
+- [Fix for "blurriness"/resolution in game](#fix-for-blurrinessresolution-in-game)
+- [Backup/transfer game data / reinstall game without redownloading](#backuptransfer-genshin-game-data--reinstall-genshin-without-redownloading)
 
-## What is this? {#what}
+## What is this?
 I made this repository to keep info/solution related to [this reddit thread](https://www.reddit.com/r/PocoPhones/comments/16qco4n/poco_f5_genshin_resolution_problem/). Made the name genshin-notes since it might contain information that is useful for other things that is not directly related to it.
 
 ### The problem
 I encountered problem described in this reddit thread: [POCO F5 Genshin resolution problem](https://www.reddit.com/r/PocoPhones/comments/16qco4n/poco_f5_genshin_resolution_problem/). After some testing, I believe spoofing your device to a different model can fix it. I use the word "believe", because when I compare the screenshots before and after the fix, it looks same. However, the screenshot after the fix definitely looks poor compared to what I actually see in-game. I have compared the game's graphics (after fix) to iPad 8 and OnePlus 7 Pro, it looks comparable. Just a bit uncertainty if I actually had the problem (before the fix). I don't feel like rebooting and reinstalling the game to do the comparsion again :')
 
-# Fix for "blurriness"/resolution in game {#blurry}
+# Fix for "blurriness"/resolution in game
 Requirements:
 - Must have LSPosed/Xposed
 
@@ -22,7 +22,7 @@ Steps:
 - Clear app data or reinstall game. If you don't want to redownload the game (about 20 GB), see below to see instructions on keeping the game data
 - Done. Hopefully it works for you!
 
-# Backup/transfer Genshin game data / reinstall Genshin without redownloading {#reinstall}
+# Backup/transfer Genshin game data / reinstall Genshin without redownloading
 This operation require you to access Android/data folder. The goal here is to make sure Android/data/com.miHoYo.GenshinImpact/files/ doesn't get deleted when you uninstall/clear the game, and copy it to the game's folder after it is installed/cleared.
 The steps you need to take might be different than mine. Newer Android version and some manufacturer might mess with your access to the folder.
 Here are the steps I took:
